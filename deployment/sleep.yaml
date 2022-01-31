@@ -15,6 +15,6 @@ spec:
       schedulerName: random-scheduler
       containers:
       - name: sleep
-        image: curlimages/curl
+        image: wardsco/sleep
         command: ["/bin/sleep","infinity"]
         imagePullPolicy: IfNotPresent
